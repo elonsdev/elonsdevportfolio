@@ -159,7 +159,7 @@ export default function Home() {
         </section>
         <section>
           <nav className='py-10 flex justify-between'>
-            <h1 className='text-xl  dark:text-white'>...</h1> 
+            <h1 className=' hidden  md:block text-xl  dark:text-white'>...</h1> 
             <ul className='flex items-center dark:text-white'>
               <li>
                 <a href='https://twitter.com/elonsdev'><AiFillTwitterCircle className='text-2xl cursor-pointer'/></a>
