@@ -33,13 +33,13 @@ export default function Home() {
         <meta property="og:url" content="https://elons.dev" />
         <meta property="og:title" content="ElonsDev | Web3 Developer"/>
         <meta property="og:description" content="Web3 Developer | I make cool stuff.. ...gib job plz"/>
-        <meta property="og:image" content={social}/>
+        <meta property="og:image" content='https://elons.dev/socialbg.png'/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://elons.dev"/>
         <meta property="twitter:title" content="ElonsDev | Web3 Developer"/>
         <meta property="twitter:description" content="Web3 Developer | I make cool stuff.. ...gib job plz"/>
-        <meta property="twitter:image" content={social}></meta>
+        <meta property="twitter:image" content='https://elons.dev/socialbg.png'></meta>
       </Head>
 
       <main className='bg-space bg-contain bg-no-repeat bg-slate-50 px-10 md:px-20 lg:px-40 font-PressStart2P dark:bg-gray-900' >
