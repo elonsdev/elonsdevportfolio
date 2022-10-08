@@ -62,7 +62,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className='relative mx-auto  w-20 h-20 lg:w-40 lg:h-40 mt-20 '>
+          <div className='relative mx-auto w-20 h-20 lg:w-40 lg:h-40 lg:mt-20 '>
             <Image src={spaceman} layout="fill" onbjectFit='cover'  />
           </div>
           <div className='text-center p-10'>
