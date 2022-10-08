@@ -11,7 +11,6 @@ import web7 from '../public/web7.png';
 import web8 from '../public/web8.png';
 import {useState} from 'react';
 import FileSaver from 'file-saver';
-import social from '../public/socialbg.png';
 
 
 
@@ -46,7 +45,7 @@ export default function Home() {
         {/* FIRST PAGE SECTION */}
         <section className=' min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-sm lg:text-xl  dark:text-white'>@elonsdev</h1> 
+            <h1 className='hidden  md:block text-sm lg:text-xl  dark:text-white'>@elonsdev</h1> 
             <ul className='flex items-center dark:text-white'>
               <li>
                 <a href='https://twitter.com/elonsdev'><AiFillTwitterCircle className='text-2xl cursor-pointer'/></a>
